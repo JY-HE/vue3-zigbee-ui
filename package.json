@@ -1,0 +1,42 @@
+{
+    "name": "zigbee-ui",
+    "private": false,
+    "version": "1.0.0",
+    "type": "module",
+    "main": "lib/zigbee-ui.umd.cjs",
+    "exports": {
+        "./lib/style.css": "./lib/style.css",
+        ".": {
+            "require": "./lib/zigbee-ui.umd.cjs"
+        }
+    },
+    "author": {
+        "name": "HeJiaYong"
+    },
+    "keywords": [
+        "zigbee-ui",
+        "zigbee",
+        "ZIGBEE-UI",
+        "vue3-zigbee-ui",
+        "vue-zigbee-ui"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "patch": "npm version patch",
+        "minor": "npm version minor",
+        "major": "npm version major",
+        "publish": "npm publish"
+    },
+    "dependencies": {
+        "node-sass": "^7.0.1",
+        "sass": "^1.54.8",
+        "sass-loader": "^13.0.2",
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.3",
+        "vite": "^3.0.7"
+    }
+}
